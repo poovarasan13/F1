@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@config "../tailwind.config.js";
+
+@layer components {
+  .card {
+    @apply bg-card border border-border rounded-md p-4;
+  }
+}
+
+body {
+  background-color: #000000;
+}
